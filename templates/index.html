@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENVIO DE SMS</title>
+</head>
+<body>
+    <center>
+        <main>
+            <h1>RECEBA O STATUS DA SUA ENTREGA VIA SMS</h1>
+        
+            <form action="/enviado" method="GET">
+
+                <input type="text" name="codigorastreio" placeholder="Insira o código de rastreio"><br>
+                <input type="text" name="telefone" placeholder="Insira o telefone para envio">
+                <p>Coloque o código de área seguido do número, como o exemplo: 11955903534</p>
+                <input type="checkbox" name="ok" required><small>   Aceito receber o status via sms</small><br><br>
+                <button>Solicitar status</button>
+            
+            </form>
+        
+        </main>
+    </center>
+</body>
+</html>
